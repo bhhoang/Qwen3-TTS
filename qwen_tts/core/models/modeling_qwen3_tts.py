@@ -14,6 +14,8 @@
 # limitations under the License.
 """PyTorch Qwen3TTS model."""
 
+from __future__ import annotations
+
 import json
 import os
 from dataclasses import dataclass
