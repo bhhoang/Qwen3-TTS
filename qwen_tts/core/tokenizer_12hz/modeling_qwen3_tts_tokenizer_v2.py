@@ -14,6 +14,8 @@
 # limitations under the License.
 """PyTorch Qwen3TTSTokenizerV2 model."""
 
+from __future__ import annotations
+
 import math
 from dataclasses import dataclass
 from typing import Callable, Optional, Union, List
