@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qwen-tts"
-version = "0.1.1"
+version = "0.1.2"
 description = "Qwen-TTS python package"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -21,8 +21,8 @@ license = { text = "Apache-2.0" }
 authors = [{ name = "Alibaba Qwen Team" }]
 
 dependencies = [
-  "transformers==4.57.3",
-  "accelerate==1.12.0",
+  "transformers>=4.40.0",
+  "accelerate>=0.28.0",
   "gradio",
   "librosa",
   "torchaudio",

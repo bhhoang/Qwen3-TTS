@@ -25,9 +25,11 @@ import torch
 from torch import nn
 from torch.nn import Parameter
 from torch.nn import functional as F
-from transformers.modeling_utils import ALL_ATTENTION_FUNCTIONS, PreTrainedModel
-from transformers.utils import ModelOutput, auto_docstring, logging
+from transformers.modeling_utils import PreTrainedModel
+from transformers.utils import ModelOutput, logging
 from transformers.utils.hub import cached_file
+
+from ..._compat import ALL_ATTENTION_FUNCTIONS, auto_docstring
 
 from torch.nn.utils.rnn import pad_sequence
 
